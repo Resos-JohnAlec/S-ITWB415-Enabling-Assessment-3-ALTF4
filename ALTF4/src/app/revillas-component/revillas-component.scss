@@ -1,0 +1,55 @@
+:host {
+  display: block;
+  width: 100%;
+  max-width: 340px;
+  margin-top: 24px;
+}
+
+.profile-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #e6e3ed;
+  border-radius: 20px;
+  box-shadow: 0 8px 28px rgb(39 26 68 / 9%);
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.profile-content {
+  padding: 24px;
+}
+
+h2 {
+  margin: 12px 0 8px;
+  color: #251e32;
+  font-size: 23px;
+  line-height: 1.3;
+}
+
+.subtitle {
+  margin: 0 0 22px;
+  color: #777080;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+button {
+  width: 100%;
+}
+
+.description:empty {
+  display: none;
+}
+
+.description {
+  margin: 20px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid #ece8f1;
+  color: #62596f;
+  font-size: 14px;
+  line-height: 1.7;
+}
